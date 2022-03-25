@@ -1,0 +1,878 @@
+body{
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	font-size:  24px;
+	line-height:  1;
+}
+
+p{
+	line-height:  1.4;
+}
+
+h2{
+	font: 106px/1.4 'Roboto Condensed Bold', Arial, sans-serif;
+	color:  #fff;
+	text-transform: uppercase;
+	text-align:  center;
+}
+
+h3, .headers li a{
+	font: 46px/1.4 'Roboto Condensed Bold', Arial, sans-serif;
+	color:  #fff;
+	text-transform: uppercase;
+	text-align:  center;
+}
+
+a{
+	text-transform: uppercase;
+}
+
+a, a:hover{text-decoration: none;}
+
+.clear{
+	clear:  both;
+}
+
+.template-width{
+	width:  1920px;
+	margin:  0 auto;
+}
+
+.central-block{
+	width:  1140px;
+	margin:  0 auto;
+}
+
+/*****************Верхнее меню*****************/
+#menu{
+	padding:  12px 0 0 0;
+	position:  relative;
+	z-index:  2;
+}
+
+#menu > a{ /*Logo*/
+	display:  block;
+	width:  116px;
+	height:  41px;
+	float:  left;
+	margin-bottom:  12px;
+}
+
+.menu-list{
+	float:  right;
+	margin-right:  163px;
+}
+
+.menu-list li{
+	float:  left;
+	margin-right: 23px;
+}
+
+.menu-list li a{
+	font: 11px/1.5 'Dosis SemiBold', Arial, sans-serif;
+	color:  #252c3a;
+	padding:  13px 15px 21px;
+	float:  left;
+	letter-spacing: 1.5px;
+}
+
+.menu-list li a:hover, .menu-list li a:focus{
+	border-bottom: 2px solid #e74c3c;
+}
+
+.symb{
+	display:  block;
+	margin: 6px 0 0 7px;
+	float:  right;
+}
+
+/*****************Блок о тренере*****************/
+#horton{
+	background:  radial-gradient(320px 600px at 1220px 600px, transparent, black);
+	position:  relative;
+}
+
+#horton > img{
+	position:  absolute;
+	left:  800px;
+	top:  145px;
+	z-index:  -1;
+	filter:  grayscale(100%) contrast(130%) brightness(130%);
+}
+
+#horton .central-block{
+	position:  relative;
+	overflow:  hidden;
+	padding:  274px 0 238px;
+}
+
+/***********Выпадающие списки***********/
+.sublist1{
+	top:  -228px; /*-3px*/
+	position:  absolute;
+	transition: top 0.4s ease-out;
+}
+
+.sublist1:nth-child(1){
+	left:  475px;
+}
+
+.sublist1:nth-child(2){
+	left:  604px;
+}
+
+.sublist1:nth-child(3){
+	left:  725px;
+}
+
+.sublist1 li{
+	padding:  14px 15px;
+}
+
+.sublist1 li a{
+	font: 11px/1.5 'Dosis SemiBold', Arial, sans-serif;
+	color:  #acb2bf;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+.sublist1 li a:hover{
+	color:  #dae2f2;
+}
+
+/*****************Продолжение блока о тренере*****************/
+.text-block{
+	width:  677px;
+	margin-left:  70px;
+}
+
+.unique-header{
+	font:  90px/1 'Poppins Light', Verdana, sans-serif;
+	color:  #fff;
+	text-transform: uppercase;
+}
+
+.unique-header span{
+	font-family:  'Poppins SemiBold', Arial, sans-serif;
+}
+
+.orange-text{
+	font:  28.5px/1.5 'Poppins Medium', Arial, sans-serif;
+	color:  #ff5900;
+	margin:  13px 0 0 5px;
+}
+
+.text-block p:nth-child(3){
+	font:  16px/1.5 'Poppins Regular', Arial, sans-serif;
+	color: #fff;
+	margin:  21px 0 0 8px;
+}
+
+.text-block p:nth-child(3) span{
+	font-family: 'Poppins SemiBold', Arial, sans-serif;
+}
+
+.text-block > img{
+	margin:  12px 0 0 -11px;
+}
+
+/*****************Блок Program*****************/
+#program{
+	position: relative;
+}
+
+#program > img:nth-child(1){
+	position:  absolute;
+	left:  17px;
+	top:  268px;
+}
+
+#program > img:nth-child(2){
+	position:  absolute;
+	right:  0px;
+	top:  542px;
+}
+
+#program .central-block{
+	position:  relative;
+	padding-top:  243px;
+}
+
+/*****************Блок с предложениями*****************/
+.proposals{
+	overflow:  hidden;
+	box-shadow: 0 0 35px 9px rgba(0, 0, 0, .1);
+	position:  absolute;
+	top:  -138px;
+}
+
+.proposals li{
+	position:  relative;
+	padding:  104px 0 77px;
+	overflow:  hidden;
+	float:  left;
+	background:  white;
+}
+
+.proposals li:nth-child(1), .proposals li:nth-child(1) .red-block{
+	padding-left: 63px;
+	padding-right: 52px;
+	width:  260px;
+}
+
+.proposals li:nth-child(2), .proposals li:nth-child(2) .red-block{
+	padding-left:  33px;
+	padding-right:  45px;
+	width:  265px;
+}
+
+.proposals li:nth-child(3), .proposals li:nth-child(3) .red-block{
+	padding-left:  36px;
+	padding-right:  80px;
+	width:  306px;
+}
+
+.red-block, .bg-training{
+	position:  absolute;
+	top:  0px;
+	left:  0px;
+	display:  none;
+}
+
+.red-block{
+	height:  291px;
+	background: rgba(255, 82, 82, .8);
+}
+
+.bg-training{
+	position:  absolute;
+}
+
+#bg-2{left:  -50px;}
+
+.proposals li:hover{background:  rgba(255, 82, 82, .8);}
+.proposals li:hover .red-block{display:  block;}
+.proposals li:hover .bg-training{display:  block;}
+.proposals li:hover p, .proposals li:hover a{color:  #fff;}
+.proposals li:hover .muscle-icons{filter:  invert(100%);}
+
+.muscle-icons, .text{
+	position:  relative;
+	z-index:  1;
+}
+
+.muscle-icons{float:  left;}
+.text{float:  right;}
+
+#text1{width:  156px;}
+
+#text2{width:  175px;}
+
+.text p{
+	font:  18px/1.5 'Roboto Condensed Bold', Arial, sans-serif;
+	color:  #212121;
+	text-transform: uppercase;
+}
+
+.text a{
+	font:  14px/4 'Roboto Condensed', Arial, sans-serif;
+	color:  #ff5252;
+}
+
+.text-preview p:first-child{
+	width:  340px;
+	font: 34px 'Roboto Condensed Bold', Arial, sans-serif;
+	color: #e74c3c;
+	float:  left;
+	margin-top:  20px;
+	letter-spacing: 1px;
+}
+
+.text-preview .res{
+	float:  right;
+	width:  705px;
+	background:  url(../images/wave-lines.png) no-repeat;
+	line-height:  1.5;
+	padding-left:  70px;
+}
+
+/******************Видео******************/
+#video-block{
+	width:  1030px;
+	height:  592px;
+	margin:  118px 0 164px 36px;
+	position:  relative;
+}
+
+#poster-image{
+	position:  absolute;
+	z-index:  1;
+}
+
+#play-icon{
+	position:  absolute;
+	top:  235px;
+	left:  473px;
+	z-index:  2;
+}
+
+#figure{
+	position:  absolute;
+	left:  -36px;
+	top:  -36px;
+	z-index:  -1;
+}
+
+#endless{
+	padding: 0 12px 0 20px;
+	text-transform: uppercase;
+	font: 13px/2 'Roboto Condensed', Tahoma, sans-serif;
+	color:  #fff;
+	letter-spacing:  5px;
+	position: absolute;
+	z-index:  1;
+	bottom:  20px;
+	right:  20px;
+	background:  #e74c3c;
+}
+
+video{
+	height:  522px;
+}
+
+#panel{
+	height:  60px;
+	background:  rgba(0, 0, 0, .9);
+	margin-top:  -4px;
+	padding-top:  10px;
+	position:  relative;
+}
+
+#panel img{filter:  invert(100%);}
+
+#panel img:hover, #play-icon:hover{
+	cursor:  pointer;
+}
+
+#timeLine{
+	position:  absolute;
+	top:  -14px;
+	left:  -2px;
+	width: 100%;
+}
+
+#icons{
+	margin-left:  20px;
+	float:  left;
+}
+
+#icons li{	
+	float:  left;	
+	width:  50px;
+	height:  50px;
+	margin-right: 10px;
+}
+
+#timer{
+	float:  left;
+	margin-left:  22px;
+	padding-top:  9px;
+	font:  30px 'FontAwesome', Arial, sans-serif;
+	color:  #fff;
+}
+
+#volume-block{
+	position:  relative;
+	margin-left:  75px;
+	float:  left;
+}
+
+#volume-range{
+	position:  absolute;
+	top:  15px;
+	left:  56px;
+}
+
+/*****************Блок discover*****************/
+#discover-block{
+	background:  rgba(231, 76, 60, .8);
+	position:  relative;
+	overflow: hidden;
+}
+
+#discover-block > img{
+	position:  absolute;
+	z-index:  -1;
+}
+
+#discover-block .central-block{
+	padding:  136px 0 96px;
+}
+
+#discover-p + a{
+	display:  block;
+	width: 543px;
+	height:  188px;
+	margin:  37px auto 0;
+}
+
+/*****************Блок info*****************/
+#info{
+	position: relative;
+}
+
+#models{
+	position:  absolute;
+	left:  0px;
+	top:  90px;
+}
+
+.twins-p{
+	line-height:  1.5;
+	margin-top:  109px;
+	width:  556px;
+	position:  relative;
+	left:  585px;
+}
+
+#rings{
+	margin:  92px auto 0;
+	display:  block;	
+}
+
+/*****************Блок Brands*****************/
+.brands{
+	width:  701px;
+	margin:  44px auto 178px;
+}
+
+.brands p{
+	font: 20px 'Poppins Regular', Arial, sans-serif;
+	text-align:  center;
+	text-transform:  uppercase;
+	letter-spacing: 1px;
+}
+
+.row1, .row2, .row3{overflow:  hidden;}
+.row1{margin-top:  15px;}
+.row2{margin-top:  40px;}
+.row3{margin-top:  24px;}
+
+.row1 img, .row2 img, .row3 img{
+	float:  left;
+}
+
+.row1 img{margin-right: 151px;}
+.row1 img:last-child{margin-right:  0;}
+
+.row2 img{margin-left:  80px;}
+
+.row3{padding: 0 30px;}
+.row3 img:last-child{float:  right;}
+
+/*****************Блок с плюсами*****************/
+.text-wrapper{
+	margin-bottom:  177px;
+}
+
+.pluses{
+	background: url(../images/plus.png) no-repeat 0 35px;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 39px 0;
+}
+
+.pluses p{
+	width:  953px;
+	line-height:  1.4;
+	padding-left: 94px;
+}
+
+/*****************Блок within*****************/
+#within{
+	background:  rgba(231, 76, 60, .9);
+	overflow:  hidden;
+	position:  relative;
+}
+
+#within .central-block{
+	padding:  130px 0 179px;
+	position:  relative;
+}
+
+#gantels{
+	position:  absolute;
+	bottom:  0px;
+	right:  -130px;
+	z-index:  0;
+	filter:  contrast(110%);
+}
+
+#inPair{
+	position:  absolute;
+	z-index:  -1;
+	top:  0px;
+	right:  0px;
+	filter: grayscale(100%) contrast(500%);
+}
+
+#within > h3{
+	width:  965px;
+	margin:  0 auto;
+}
+
+#within h2{
+	margin:  102px 0 112px;
+}
+
+.headers{
+	overflow:  hidden;
+	box-shadow: 0 0 20px 19px rgba(189, 63, 49, .9);
+	background:  #e74c3c;
+}
+
+.headers li{
+	float:  left;
+	padding:  24px 0;
+}
+
+.headers li a{
+	display:  block;
+	padding:  16px 0;
+	border-right:  1px solid #c94334;
+}
+
+.headers li:nth-child(1) a{
+	width:  307px;
+}
+
+.headers li:nth-child(2) a{
+	width:  429px;
+	color:  #000;
+}
+
+.headers li:nth-child(3) a{
+	width:  395px;
+	border:  none;
+}
+
+.blocks{
+	margin-top:  117px;
+	width:  796px;
+	height: 408px;
+	position: relative;
+	z-index: 1;
+}
+
+.blocks .content{
+	position: absolute;
+	top:  0px;
+}
+
+.blocks .content:nth-child(1), .blocks .content:nth-child(3){
+	display:  none;
+}
+
+.content p{
+	font-size:  24px;
+	line-height:  1.4;
+	color:  #fff;
+}
+
+.content p:last-child{
+	margin-top:  36px;
+}
+
+#rule1 .central-block, #rule2 .central-block, #rule3 .central-block{
+	position:  relative;
+}
+
+.options{
+	width:  660px;
+	padding:  125px 0 106px;
+	position:  relative;
+	left:  479px;
+}
+
+/******************Блок Rules******************/
+#rule1 .options{padding-top: 178px;}
+
+#rule1 img{
+	position:  absolute;
+	top:  238px;
+	left:  -32px;
+}
+
+.options h3{
+	color:  #000;
+	text-align:  left;
+}
+.options h3 span{color:  #e74c3c;}
+
+.options p{
+	line-height:  1.4;
+	margin-top:  25px;
+}
+
+#rule2{background: #000;}
+#rule2 .options{position:  static;}
+
+#rule2 h3, #rule2 p{color: #fff;}
+
+.round-img{
+	width:  408px;
+	height:  408px;
+	border-radius:  50%;
+	overflow:  hidden;
+	position:  absolute;
+	right:  -43px;
+	top:  74px;
+}
+
+.round-img img{
+	position:  absolute;
+	left:  0px;
+	top:  -2px;
+	z-index:  1;
+}
+
+#rule3 img{
+	position:  absolute;
+	left:  -46px;
+	top:  140px;
+}
+
+/****************Блок Products****************/
+#products{
+	background:  #f5f5f5;
+}
+
+#products .central-block{
+	padding:  186px 0 168px;
+}
+
+#products h2{
+	color:  #000;
+}
+
+#products p{
+	margin-top:  50px;
+	text-align:  center;
+}
+
+/****************Карусель товаров - список****************/
+.proteins{
+	height:  270px;
+}
+
+.proteins li{
+	width:  320px;
+	height:  270px;
+	float:  left;
+	position:  relative;
+	box-shadow:  -23px -7px 30px 2px rgba(0, 0, 0, .05);
+}
+
+.proteins li:nth-child(1){
+	box-shadow:  -5px -12px 34px -5px rgba(0, 0, 0, .05);
+}
+
+.proteins li:nth-child(6){
+	box-shadow:  -25px -12px 34px -5px rgba(0, 0, 0, .05), 18px -1px 25px -13px rgba(0, 0, 0, .05);
+}
+
+.proteins li:nth-child(5){background:  #e74c3c;}
+
+.proteins li img{
+	position:  absolute;
+	top:  30px;
+	left:  101px;
+}
+
+.proteins li:nth-child(1) img{top: 54px;}
+.proteins li:nth-child(5) img{top: 20px;}
+
+/****************Карусель товаров - опсиание товара****************/
+.red-bg{
+	background:  #e74c3c;
+	height:  832px;
+	position:  relative;
+}
+
+.protein-product:nth-child(1){display:  none;}
+.protein-product:nth-child(2){display:  none;}
+.protein-product:nth-child(3){display:  none;}
+.protein-product:nth-child(4){display:  none;}
+.protein-product:nth-child(5){display:  block;}
+.protein-product:nth-child(6){display:  none;}
+
+.protein-product{
+	width:  1510px;
+	overflow:  hidden;
+	position:  absolute;
+	left:  203px;
+	top:  188px;
+}
+.protein-product img{
+	position:  absolute;
+	left:  626px;
+	top: 32px;
+}
+
+#powder{top:  8px;}
+
+#casein{top:  85px;}
+
+.pluses-left, .pluses-right{
+	width:  574px;
+	height:  500px;
+	padding-top:  50px;
+}
+
+.pluses-left{
+	float:  left;
+}
+
+.pluses-right{
+	float:  right;
+}
+
+.protein-product li{
+	margin-top: 53px;
+	color:  #fff;
+	width:  485px;
+	line-height:  1.4;
+}
+
+.pluses-left li{
+	background: url(../images/plus-white.png) no-repeat right 4px;
+	text-align:  right;
+	padding-right:  74px;
+}
+
+.pluses-right li{
+	background: url(../images/plus-white.png) no-repeat left 4px;
+	padding-left:  74px;
+}
+
+.red-text{
+	color:  #e74c3c;
+}
+
+/****************Блок Steps****************/
+#steps{
+	padding:  110px 0 166px;
+}
+
+#steps h2, #steps h3{color:  #000;}
+
+#steps h2{
+	width:  897px;
+	margin:  0 auto;
+	text-align:  center;
+	line-height:  1.1;
+}
+
+#steps > p{
+	width:  676px;
+	margin:  13px auto 0;
+	text-align:  center;
+}
+
+.counting{
+	margin-top:  128px;
+	overflow:  hidden;
+}
+
+.counting li{
+	width:  360px;
+	margin-right:  30px;
+	text-align:  center;
+	float:  left;
+}
+.counting li:last-child{margin-right:  0;}
+
+.rounded-img{
+	width:  300px;
+	height:  300px;
+	margin:  0 auto 30px;
+	border-radius:  150px; /*=50%*/
+	overflow:  hidden;
+	position:  relative;
+}
+
+.counting li:nth-child(1) .rounded-img img{
+	position:  absolute;
+	top:  -39px;
+	right:  -196px;
+}
+
+.counting li:nth-child(2) .rounded-img img{
+	position:  absolute;
+	top:  -9px;
+	right:  -36px;
+}
+
+.counting li:nth-child(3) .rounded-img img{
+	position:  absolute;
+	top:  -93px;
+	right:  -88px;
+}
+
+.counting p{
+	margin-top:  11px;
+}
+
+/****************Блок Started****************/
+#started{
+	position: relative;
+	overflow:  hidden;
+}
+
+#started > img{
+	filter:  grayscale(100%) sepia(200%) hue-rotate(320deg) saturate(200%) contrast(140%) brightness(85%);
+	position:  absolute;
+	top:  -92px;
+	z-index:  -1;
+}
+
+#started .central-block{
+	padding:  120px 0 134px;
+	text-align:  center;
+}
+
+#started p{
+	color:  #fff;
+	margin-bottom:  78px;
+}
+
+#started a{
+	width:  470px;
+	height:  112px;
+	margin:  0 auto;
+}
+
+/****************Footer****************/
+#footer .central-block{
+	padding:  45px 0 34px;
+}
+
+.footer-links{
+	overflow:  hidden;
+	width:  501px;
+	margin:  0 auto;
+}
+
+.footer-links li{
+	margin-right:  22px;
+	float:  left;
+}
+
+#footer a{
+	font:  18px 'Roboto Condensed', Arial, sans-serif;
+	color:  #000000;
+}
+
+#copy{
+	text-align:  center;
+	font-size:  12px;
+	margin-top:  23px;
+}

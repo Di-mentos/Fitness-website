@@ -1,0 +1,95 @@
+@font-face{
+	font-family:  'Roboto Condensed Regular';
+	src:  local('Roboto Condensed Regular'), 
+	url(fonts/RobotoCondensed-Regular.ttf) format('ttf'),
+	url(fonts/roboto-condensed.otf) format('otf'),
+	url(fonts/RobotoCondensed-Regular.woff) format('woff'),
+	url(fonts/RobotoCondensed-Regular.woff2) format('woff2');
+}
+
+@font-face{
+	font-family:  'Roboto Condensed Bold';
+	src:  local('Roboto Condensed Bold'), 
+	url(fonts/RobotoCondensed-Bold.ttf) format('ttf'),
+	url(fonts/roboto-bold-condensed.otf) format('otf'),
+	url(fonts/roboto-bold-condensed.woff) format('woff'),
+	url(fonts/roboto-bold-condensed.woff2) format('woff2');
+}
+
+@font-face{
+	font-family: 'FontAwesome';
+	src:  local('FontAwesome'), 
+	url(fonts/fontawesome-webfont.ttf) format('ttf'),
+	url(fonts/FontAwesome.otf) format('otf'),
+	url(fonts/fontawesome-webfont.woff) format('woff'),
+	url(fonts/fontawesome-webfont.woff2) format('woff2');
+}
+
+@font-face{
+	font-family:  'Dosis Regular';
+	src:  local('Dosis Regular'), 
+	url(fonts/Dosis-Regular.ttf) format('ttf'),
+	url(fonts/Dosis-Regular.otf) format('otf'),
+	url(fonts/Dosis-Regular.woff) format('woff'),
+	url(fonts/Dosis-Regular.woff2) format('woff2');
+}
+
+@font-face{
+	font-family:  'Dosis SemiBold';
+	src:  local('Dosis SemiBold'), 
+	url(fonts/Dosis-SemiBold.ttf) format('ttf'),
+	url(fonts/Dosis-SemiBold.otf) format('otf'),
+	url(fonts/Dosis-SemiBold.woff) format('woff'),
+	url(fonts/Dosis-SemiBold.woff2) format('woff2');
+}
+
+@font-face{
+	font-family:  'Dosis Medium';
+	src:  local('Dosis Medium'), 
+	url(fonts/Dosis-Medium.ttf) format('ttf'),
+	url(fonts/Dosis-Medium.otf) format('otf'),
+	url(fonts/Dosis-Medium.woff) format('woff'),
+	url(fonts/Dosis-Medium.woff2) format('woff2');
+}
+
+
+
+@font-face{
+	font-family:  'Poppins Light';
+	src:  local('Poppins Light'), 
+	url(fonts/poppins-light.ttf) format('ttf'),
+	url(fonts/Poppins-Light.woff) format('woff'),
+	url(fonts/Poppins-Light.woff2) format('woff2');
+}
+
+@font-face{
+	font-family:  'Poppins Regular';
+	src:  local('Poppins Regular'), 
+	url(fonts/Poppins-Regular.ttf) format('ttf'),
+	url(fonts/Poppins-Regular.woff) format('woff'),
+	url(fonts/Poppins-Regular.woff2) format('woff2');
+}
+
+@font-face{
+	font-family:  'Poppins Medium';
+	src:  local('Poppins Medium'), 
+	url(fonts/Poppins-Medium.ttf) format('ttf'),
+	url(fonts/Poppins-Medium.woff) format('woff'),
+	url(fonts/Poppins-Medium.woff2) format('woff2');
+}
+
+@font-face{
+	font-family:  'Poppins SemiBold';
+	src:  local('Poppins SemiBold'), 
+	url(fonts/poppins-semibold.ttf) format('ttf'),
+	url(fonts/Poppins-SemiBold.woff) format('woff'),
+	url(fonts/Poppins-SemiBold.woff2) format('woff2');
+}
+
+@font-face{
+	font-family:  'Poppins Bold';
+	src:  local('Poppins Bold'), 
+	url(fonts/poppins-bold.ttf) format('ttf'),
+	url(fonts/Poppins-Bold.woff) format('woff'),
+	url(fonts/Poppins-Bold.woff2) format('woff2');
+}
